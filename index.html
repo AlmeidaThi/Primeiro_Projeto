@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Calculadora de Idade e Calçado</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <p>Por favor, inserir as informações abaixo:</p>
+  
+  <form name="FormCalculadora" action="" method="post">
+    
+    Digite a numeração do seu calçado:
+    <input type="text" name="f_numcalcado" id="f_numcalcado" value="" /> <p></p>
+    
+    Digite o ano de seu nascimento (1900):
+    <input type="text" name="f_anonasc" id="f_anonasc" value="" /> <p></p>
+    
+    <input type="button" name="btn_calculadora" value="Calcular" onclick="calcular()" />
+    
+    <input type="reset" name="btn_cancela" value="Limpar" />
+    <p></p>
+    <p></p>
+    
+    <h2>Resultado</h2>
+    <p>O resultado mostrará a numeração do seu calçado nos dois primeiros números e a tua idade nos dois últimos números.</p>
+      
+     <input type="number" name="f_resultado" id="" value="" />
+     
+     <p></p>
+    
+  </form>
+ 
+  <!-- Project -->
+  <script src="main.js" defer></script>
+</body>
+</html>
